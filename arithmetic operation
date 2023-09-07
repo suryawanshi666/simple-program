@@ -1,0 +1,14 @@
+//write a program to read to integer using pointer andperform all airthmatic operation on them
+#include<stdio.h>
+int main()
+{
+	int a,b,*x,*y;
+	printf("enter two numbers");
+	scanf("%d%d",&a,&b);
+	x=&a;
+	y=&b;
+	printf("\n addition=%d",*x+*y);
+	printf("\n substraction=%d",*x-*y);
+	printf("\n multiplaction=%d",*x**y);
+	printf("\n division=%d",*x|*y);
+}
